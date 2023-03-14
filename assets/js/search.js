@@ -33,7 +33,7 @@
   
    // var searchTerm = getQueryVariable('query');
   
-    if (searchTerm) {
+    if (getQueryVariable('query')) {
       document.getElementById('search-box').setAttribute("value", getQueryVariable('query'));
   
       // Initalize lunr with the fields it will be searching on. I've given title
