@@ -1,4 +1,3 @@
-
 (function() {
     function displaySearchResults(results, store) {
       var searchResults = document.getElementById('search-results');
@@ -31,10 +30,10 @@
       }
     }
   
-   // var searchTerm = getQueryVariable('query');
+    var searchTerm = getQueryVariable('query');
   
-    if (getQueryVariable('query')) {
-      document.getElementById('search-box').setAttribute("value", getQueryVariable('query'));
+    if (searchTerm) {
+      document.getElementById('search-box').setAttribute("value", searchTerm);
   
       // Initalize lunr with the fields it will be searching on. I've given title
       // a boost of 10 to indicate matches on this field are more important.
