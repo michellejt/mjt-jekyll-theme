@@ -1,3 +1,4 @@
+console.log('searchjs')
 (function() {
     function displaySearchResults(results, store) {
       var searchResults = document.getElementById('search-results');

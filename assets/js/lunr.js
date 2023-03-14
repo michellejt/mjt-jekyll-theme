@@ -3,7 +3,7 @@
  * Copyright (C) 2020 Oliver Nightingale
  * @license MIT
  */
-
+console.log('lunarjs')
 ;(function(){
 
 /**
