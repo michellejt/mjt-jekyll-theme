@@ -7,7 +7,6 @@ class jekyllSearch {
 
     this.displayResults = this.displayResults.bind(this)
   }
-
   fetchedData() {
     return fetch(this.dataSource)
       .then(blob => blob.json())

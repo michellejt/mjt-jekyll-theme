@@ -1,32 +1,50 @@
+<footer>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+  {% if site.data.social %}
+  <div class="social">
+    {% for social in site.data.social %}
+      <a href="{{ social.url }}" target="_blank">
+        <i class="{{ social.icon | default: 'fas fa-link' }}" title="{{ social.title }}"></i>
+      </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+ 
+    <div class="container mt-5 py-5">
+      <div class="row justify-content-center">
+        <div class="col-md-4 footer-column d-flex justify-content-center text-white social-icons">
+      
+            <a class="social-icon social-icon--twitter" href="https://twitter.com/FlameRoastToast" target="_blank">
+              <i class="fa fa-twitter"></i>
+              <div class="tooltip">Follow me on Twitter</div>
+            </a>
+            <a class="social-icon social-icon--kofi" href="https://ko-fi.com/flameroasttoast" target="_blank">
+          
+              <img src="https://raw.githubusercontent.com/michellejt/flameroasttoast-jekyll-theme/master/assets/images/kofi-icon.png" />
+              <div class="tooltip">Buy me a coffee?</div>
+            </a>
+          
 
-    {% if page.title %}<meta property="og:title" content="{{ page.title }}">{% endif %}
-    {% if page.url %}<meta property="og:url" content="{{ site.rooturl }}{{ page.url }}">{% endif %}
-    {% if page.description %}<meta property="og:description" content="{{ page.description }}">{% endif %}
-    {% if page.bannerImage %}<meta property="og:image" content="{{ site.rooturl }}{{ page.url | replace: 'index', '' }}{{ page.bannerImage }}">{% endif %}
-    <meta property="og:type" content="website" />
+        </div>
+      </div>
+    </div>
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@">
-    {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% endif %}
-    {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% endif %}
-    {% if page.bannerImage %}<meta name="twitter:image" content="{{ site.rooturl }}{{ page.url | replace: 'index', '' }}{{ page.bannerImage }}">{% endif %}
 
-      <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-  
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-      <link href="/assets/css/main.css" rel="stylesheet">
+    <div class="container-fluid copyright">
+      <div class="row">
+        <span class="quick-links">Copyright © <script>document.write(new Date().getFullYear())</script>
+        </span>
+      </div>
+  </div>
 
-      <script src="https://kit.fontawesome.com/c92a73f1af.js" crossorigin="anonymous"></script>
-  
-    {% include custom-head.html %}
+    </footer>
 
-  </head>
+     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 
+     <!-- Core theme JS-->
+     <script src="{{ '/assets/js/lunr.js' | relative_url }}"></script>
+     <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+
+
+     
