@@ -12,10 +12,10 @@
       <!-- links -->
       <div class="links-container">
         <ul class="links">
-          {{ site.data.navigation.navigation }}
-          {% for item in site.data.navigation.main %}  
+          {{ site.social-links}}
+          {% for item in social-links %}  
           <li>
-            <a href="/{{ item.url }} class="scroll-link">{{ item.title }}</a>
+            <a href="/{{ item.url }}" class="scroll-link">{{ item.title }}</a>
           </li>
           {% endfor %}  
         </ul>
