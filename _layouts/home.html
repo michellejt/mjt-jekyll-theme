@@ -14,7 +14,7 @@ layout: default
       <div class="social">
         {% for item in site.data.navigation.social-links %}
           <a href="{{ item.url }}" target="_blank">
-            <i class="{{ item.icon | default: 'fas fa-link' }}" title="{{ item.title }}"></i></p>
+            <i class="{{ item.icon | default: 'fas fa-link' }}" title="{{ item.title }}"></i>{{ item.title }}</p>
         {% endfor %}
       {% endif %}
   </div>
