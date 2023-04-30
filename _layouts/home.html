@@ -23,8 +23,11 @@ layout: default
 </header>
 
 <p>this</p>
-<ul>
-   {% for item in site.social %}
-      <li><a href="{{ item.url }}">{{ item.name }}</a></li>
-   {% endfor %}
-   </ul>
+<ul class="links">
+  {{ site.data.social-links }}
+  {% for item in site.data.social-link %}  
+  <li>
+    <a href="/{{ item.url }} class="scroll-link">{{ item.title }}</a>
+  </li>
+  {% endfor %}  
+</ul>
