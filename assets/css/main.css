@@ -53,6 +53,15 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1200px;
   --fixed-width: 620px;
+/*toggle*/
+  --t-w: 1.75em;
+  --t-h: 1em;
+  --t-pd: 0.125em;
+  --t-tr: 0;
+  --t-bg: #3ab4f5;
+  --t-b-bg: #ffdf65;
+  --t-m-bg: #171719;
+
 }
 /*
 =============== 
@@ -469,4 +478,53 @@ footer p {
   100% {
     transform: scale(1);
   }
+}
+/* =============== 
+      Toggle
+=============== */  
+
+.toggle {
+  width: var(--t-w);
+  height: var(--t-h);
+  background: var(--t-bg);
+  border-radius: var(--t-h);
+  transition: background 0.2s ease-out;
+}
+.toggle__ball {
+  height: var(--t-h);
+  border: var(--t-pd) solid transparent;
+  box-sizing: border-box;
+  aspect-ratio: 1;
+  background-color: var(--t-b-bg);
+  background-clip: padding-box;
+  border-radius: 50%;
+  translate: var(--t-tr);
+  transition: translate 0.2s ease-out;
+}
+.toggle__ball {
+  filter: drop-shadow(0 0 0.1em var(--t-b-bg)) drop-shadow(0 0 0.025em var(--t-b-bg)) blur(1px);
+  background-image: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.5) 30%, transparent);
+}
+input[type="checkbox"]:checked ~ .toggle {
+  --t-tr: calc(var(--t-w) - 100%);
+  --t-bg: #071237;
+  --t-b-bg: #fbfaea;
+}
+input[type="checkbox"]:checked ~ .toggle .toggle__ball {
+  box-shadow: inset 3.5rem 0.2rem 0 0 var(--t-b-bg);
+  background: transparent;
+  transform: rotate(180deg);
+}
+.toggle-container {
+  position: relative;
+  font-size: 10em;
+}
+.toggle-container input[type="checkbox"] {
+  all: unset;
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  border-radius: var(--t-h);
+  cursor: pointer;
+  z-index: 1;
 }
