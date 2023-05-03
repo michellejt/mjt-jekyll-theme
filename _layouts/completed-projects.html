@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Landing Start -->
-<section class="complete-projects">
+<section class="completed-projects">
 
 <h1 class="text-white font-weight-bold">{{ page.title }}</h1>
 
@@ -20,19 +20,19 @@ layout: default
 </div>
 
 <div class="container landing-tiles">
-  <div class="row">
+complete  <div class="row">
 
-    {% assign complete-projects = site.complete-projects | sort: 'published' | reverse %}
-    {% for complete-projects in complete-projects %}
+    {% assign completed-projects = site.completed-projects | sort: 'published' | reverse %}
+    {% for completed-projects in completed-projects %}
 
 <div class="card-wrapper col-lg-4 col-md-6 col-12 pt-4" data-aos="zoom-in-up">
   <!-- Card -->
   <article class="card card-animation" id="card">
     <!-- <div class="card category">{{ art.category }}</div> -->
-    <a href="{{ complete-projects.url }}">
+    <a href="{{ completed-projects.url }}">
     <div class="card-block">
-      <h4 class="card-title pt-2">{{ complete-projects.title }}</h4>
-      <p class="card-text">{{ complete-projects.description | truncate: 160 }}</p>
+      <h4 class="card-title pt-2">{{ completed-projects.title }}</h4>
+      <p class="card-text">{{ completed-projects.description | truncate: 160 }}</p>
       </a>
     </div>
   </article><!-- .end Card -->
