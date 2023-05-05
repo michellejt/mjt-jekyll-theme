@@ -515,7 +515,7 @@ footer p {
   transition: translate 0.2s ease-out;
 }
 .toggle__ball {
-  filter: drop-shadow(0 0 0.1em var(--t-b-bg)) drop-shadow(0 0 0.025em var(--t-b-bg)) blur(1px);
+  filter: drop-shadow(0 0 0.025em var(--t-b-bg)) blur(1px);
   background-image: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.5) 30%, transparent);
 }
 input[type=checkbox]:checked ~ .toggle {
