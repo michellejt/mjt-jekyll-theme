@@ -12,21 +12,22 @@ layout: default
   <img src="{{site.baseurl }}/{{ site.mjt.portfolio_image }}" alt="{{ site.name }}" />
 </div>
 
-    <p>Find me on</p>
-      {% if site.data.navigation.social-links %}
-      <div class="social">
-        {% for item in site.data.navigation.social-links %}
-          <a href="{{ item.url }}" target="_blank">
-            <i class="{{ item.icon | default: 'fas fa-link' }}" title="{{ item.title }}"></i>{{ item.title }}
-          </a>
-        {% endfor %}
-      {% endif %}
-  </div>
+
   </div>
 </div>
-</header>
+</div>
 
-
+<div class="intro-social-link"
+<p>Find me on</p>
+{% if site.data.navigation.social-links %}
+<div class="social">
+  {% for item in site.data.navigation.social-links %}
+    <a href="{{ item.url }}" target="_blank">
+      <i class="{{ item.icon | default: 'fas fa-link' }}" title="{{ item.title }}"></i>{{ item.title }}
+    </a>
+  {% endfor %}
+{% endif %}
+</div>
 
 <div class="info-intro">
   {{ content }}

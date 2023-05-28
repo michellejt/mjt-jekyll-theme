@@ -78,6 +78,15 @@ body {
   color:  --clr-black;
 }
 
+.intro {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.social {
+  display: flex;
+}
+
 /*
 =============== 
 Global Styles
