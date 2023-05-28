@@ -179,17 +179,17 @@ p {
   border-radius: var(--radius);
 }
 .btn:hover {
-  color: var(--clr-white);
+  color: var(--clr-black);
   background: var(--clr-black);
 }
 .btn-white {
-  color: var(--clr-white);
-  border-color: var(--clr-white);
+  color: var(--clr-black);
+  border-color: var(--clr-black);
   border-radius: 0;
   padding: 0.5rem 1rem;
 }
 .btn:hover {
-  background: var(--clr-white);
+  background: var(--clr-black);
   color: var(--clr-secondary);
 }
 
@@ -299,7 +299,7 @@ Scroll
 */
 /* navbar */
 nav {
-  background: var(--clr-white);
+  background: var(--clr-black);
   padding: 1rem 1.5rem;
 }
 /* fixed nav */
@@ -308,7 +308,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--clr-white);
+  background: var(--clr-black);
   box-shadow: var(--light-shadow);
 }
 .fixed-nav .links a {
@@ -351,7 +351,7 @@ nav {
   height: 200px;
 }
 .links a {
-  background: var(--clr-white);
+  background: var(--clr-black);
   color: var(--clr-grey-5);
   font-size: 1.1rem;
   text-transform: capitalize;
@@ -390,7 +390,7 @@ nav {
   }
   .links a {
     background: transparent;
-    color: var(--clr-white);
+    color: var(--clr-black);
     font-size: 1.1rem;
     text-transform: capitalize;
     letter-spacing: var(--spacing);
@@ -401,7 +401,7 @@ nav {
     padding: 0;
   }
   .links a:hover {
-    color: var(--clr-white);
+    color: var(--clr-black);
   }
 }
 /* hero */
@@ -417,11 +417,11 @@ header {
   text-align: center;
 }
 .container h1 {
-  color: var(--clr-white);
+  color: var(--clr-black);
   text-transform: uppercase;
 }
 .container p {
-  color: var(--clr-white);
+  color: var(--clr-black);
   max-width: 25rem;
   margin: 0 auto;
   margin-bottom: 1.25rem;
@@ -445,13 +445,13 @@ header {
   height: 80vh;
 }
 #services {
-  background: var(--clr-white);
+  background: var(--clr-black);
 }
 footer {
   padding: 5rem 1rem;
 }
 footer p {
-  color: var(--clr-white);
+  color: var(--clr-black);
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
@@ -469,7 +469,7 @@ footer p {
   display: grid;
   place-items: center;
   border-radius: var(--radius);
-  color: var(--clr-white);
+  color: var(--clr-black);
   animation: bounce 2s ease-in-out infinite;
   visibility: hidden;
   z-index: -100;
