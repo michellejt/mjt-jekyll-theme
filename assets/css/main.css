@@ -69,6 +69,10 @@ body.dark-mode {
   color:  --clr-white;
 }
 
+.dark-mode * {
+  color:#cfd3f5!important
+}
+
 body {
   background: white;
   transition: 0.5s;
@@ -81,6 +85,10 @@ body {
 .intro {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.intro-img {
+  max-width:33.333333%
 }
 
 .social {
