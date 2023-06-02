@@ -29,7 +29,7 @@ window.addEventListener("scroll", function () {
   } else {
     navbar.classList.remove("fixed-nav");
   }
-  // setup back to top link
+/*   // setup back to top link
 
   if (scrollHeight > 500) {
     console.log("helo");
@@ -37,7 +37,7 @@ window.addEventListener("scroll", function () {
     topLink.classList.add("show-link");
   } else {
     topLink.classList.remove("show-link");
-  }
+  } */
 });
 
 // ********** smooth scroll ************
