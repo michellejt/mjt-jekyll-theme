@@ -145,6 +145,7 @@ h1 {
 }
 h2 {
   font-size: 2rem;
+  font-weight: 600;
 }
 h3 {
   font-size: 1.25rem;
@@ -337,6 +338,14 @@ nav {
 /* .fixed-nav .links-container {
   height: auto !important;
 } */
+
+.fixed-nav .nav-center .links-container .links a {
+  color:#fff!important
+}
+
+
+
+
 #nav i {
   color: var(--clr-primary-10);
 }
@@ -375,7 +384,7 @@ nav {
   letter-spacing: var(--spacing);
   display: block;
   transition: var(--transition);
-  font-weight: bold;
+  font-weight: 400;
   padding: 0.75rem 0;
 }
 .links a:hover {
@@ -414,7 +423,7 @@ nav {
     display: block;
     transition: var(--transition);
     margin: 0 1rem;
-    font-weight: bold;
+    font-weight: 400;
     padding: 0;
   }
   .links a:hover {
@@ -473,6 +482,13 @@ footer p {
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   margin-bottom: 0;
+}
+
+.navbar-brand.gradient-text {
+  font-weight: 900;
+  letter-spacing: 5px;
+  padding-right: 0px;
+  font-size:1.25rem
 }
 
 .top-link {
