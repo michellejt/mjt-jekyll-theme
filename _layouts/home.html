@@ -24,19 +24,23 @@ layout: default
 {% endif %}
 </div>
 
+
 </div>
 
 <div class="toolkit">
   {% if site.data.navigation.toolkit %}
     {% for item in site.data.navigation.social-links %}
-      {% if item.icon.type === "icon" %}
+      {% if item.icon.type == 'icon' %}
         <p>HELLO</p>
-        {% elsif item.icon.type === "image" %}
+          {% else %}
         <p>BYE</p>
+        <img src="{{ item.icon.image_path }}" alt="{{ item.icon.alt }}">
         {% endif %}
       {% endfor %}
     {% endif %}
 </div>
+
+
 
 
 
