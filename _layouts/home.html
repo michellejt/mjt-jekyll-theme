@@ -32,9 +32,9 @@ layout: default
     {% for item in site.data.navigation.toolkit %}
       {% if item.type == 'icon' %}
         <i class="{{ item.icon }}"></i>
-          {% else %}
+        {% elsif item.icon.type == 'image' %}
         <p>{{ item.title }}</p>
-        <img src="{{ item.image_path }}" alt="{{ item.icon.alt }}">
+        <img src="{{ item.image_path }}" alt="{{ item.title }}">
         {% endif %}
       {% endfor %}
     {% endif %}
