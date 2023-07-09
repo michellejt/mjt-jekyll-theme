@@ -30,8 +30,9 @@ layout: default
 <div class="toolkit">
   {% if site.data.navigation.toolkit %}
     {% for item in site.data.navigation.toolkit %}
-      {% if item.icon.type == 'icon' %}
+      {% if item.type == 'icon' %}
         <p>HELLO</p>
+
           {% else %}
         <p>BYE</p>
         <p>{{ item.title }}</p>
