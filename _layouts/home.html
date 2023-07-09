@@ -13,9 +13,9 @@ layout: default
     <p>{{ site.description }}</p>
     <div class="intro-social-links"
 <p>Find me on</p>
-{% if site.data.navigation.social-links %}
+{% if site.data.navigation.toolkit %}
 <div class="social">
-  {% for item in site.data.navigation.social-links %}
+  {% for item in site.data.navigation.toolkit %}
     <a href="{{ item.url }}" target="_blank">
       <i class="{{ item.icon | default: 'fas fa-link' }}" title="{{ item.title }}"></i>
     </a>
