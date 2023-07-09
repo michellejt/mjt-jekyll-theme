@@ -25,17 +25,17 @@ layout: default
 
 </div>
 
-
+<div class="toolkit">
 {% if item.icon.type == 'icon' %}
   {% for item in site.data.navigation.toolkit %}
-    <i class="material-icons">{{ item.icon.name }}</span>
+    <i class="{{ item.icon }}"</span>
   {% endfor %}      
 {% elsif item.icon.type == 'image' %}
   {% for item in site.data.navigation.toolkit %}
     <img src="{{ item.icon.image_path }}" alt="{{ item.icon.alt }}">
   {% endfor %}
 {% endif %}
-
+</div>
 
 
 
