@@ -29,9 +29,9 @@ layout: default
 <div class="toolkit">
   {% if site.data.navigation.toolkit %}
     {% for item in site.data.navigation.social-links %}
-      {% if item.icon.type == "icon" %}
+      {% if item.icon.type === "icon" %}
         <p>HELLO</p>
-        {% elsif item.icon.type == "image" %}
+        {% elsif item.icon.type === "image" %}
         <p>BYE</p>
         {% endif %}
       {% endfor %}
