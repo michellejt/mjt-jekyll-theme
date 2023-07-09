@@ -31,13 +31,12 @@ layout: default
     {% for item in site.data.navigation.social-links %}
       {% if item.icon.type == 'icon' %}
         <p>HELLO</p>
-          {% else %}
+        {% elsif item.icon.type == 'image' %}
         <p>BYE</p>
         {% endif %}
       {% endfor %}
     {% endif %}
 </div>
-
 
 
 
