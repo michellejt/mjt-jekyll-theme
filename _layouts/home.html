@@ -26,18 +26,14 @@ layout: default
 </div>
 
 
-
-
-
-
-{% if page.title == "Tags" %}
-    {% for item in site.data.navigation.toolkit %}
-        <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-    {% endfor %}
-{% elsif page.title == "Categories" %}
-    {% for tag in site.categories %}
-        <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-    {% endfor %}
+{% if item.icon.type == 'icon' %}
+  {% for item in site.data.navigation.toolkit %}
+    <i class="material-icons">{{ item.icon.name }}</span>
+  {% endfor %}      
+{% elsif item.icon.type == 'image' %}
+  {% for item in site.data.navigation.toolkit %}
+    <img src="{{ item.icon.image_path }}" alt="{{ item.icon.alt }}">
+  {% endfor %}
 {% endif %}
 
 
