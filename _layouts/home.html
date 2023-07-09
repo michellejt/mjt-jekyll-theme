@@ -31,8 +31,7 @@ layout: default
   {% if site.data.navigation.toolkit %}
     {% for item in site.data.navigation.toolkit %}
       {% if item.type == 'icon' %}
-        <p>HELLO</p>
-        <i class="{{ item.icon }}">{{ item.title }}<</i>
+        <i class="{{ item.icon }}"></i>
           {% else %}
         <p>{{ item.title }}</p>
         <img src="{{ item.image_path }}" alt="{{ item.icon.alt }}">
