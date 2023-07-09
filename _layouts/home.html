@@ -32,9 +32,8 @@ layout: default
     {% for item in site.data.navigation.toolkit %}
       {% if item.type == 'icon' %}
         <p>HELLO</p>
-
+        <i class="{{ item.icon }}">{{ item.title }}<</i>
           {% else %}
-        <p>BYE</p>
         <p>{{ item.title }}</p>
         <img src="{{ item.image_path }}" alt="{{ item.icon.alt }}">
         {% endif %}
@@ -42,6 +41,20 @@ layout: default
     {% endif %}
 </div>
 
+
+
+{% for item in site.data.example %}
+  {% if item.icon.type == 'icon' %}
+    
+  {% elsif item.icon.type == 'image' %}
+    <img src="{{ item.icon.image_path }}" alt="{{ item.icon.alt }}">
+  {% else %}
+    {{ item.icon.value }}
+  {% end %}
+
+  <h3>{{ item.title }}</h3>
+  <p>{{ item.description</p>
+{% endfor %}
 
 
 
