@@ -26,9 +26,7 @@ layout: default
 </div>
 
 
-<div class="toolkit">
-
-{% for item in site.data.navigation.toolkit %}
+{% for item in site.data.example %}
   {% if item.icon.type == 'icon' %}
     <i class="material-icons">{{ item.icon.name }}</span>
   {% elsif item.icon.type == 'image' %}
@@ -37,9 +35,9 @@ layout: default
     {{ item.icon.value }}
   {% end %}
 
+  <h3>{{ item.title }}</h3>
+  <p>{{ item.description }}</p>
 {% endfor %}
-</div>
-
 
 
 
