@@ -33,7 +33,6 @@ layout: default
       {% if item.type == 'icon' %}
         <i class="{{ item.icon }}"></i>
         {% elsif item.type == 'image' %}
-        <p>{{ item.title }}</p>
         <img src="{{ item.image_path }}" alt="{{ item.title }}">
         {% endif %}
       {% endfor %}

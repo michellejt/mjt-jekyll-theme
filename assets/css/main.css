@@ -343,7 +343,9 @@ nav {
   color:#fff!important
 }
 
-
+.toolkit img {
+  width: 50px;  
+}
 
 
 #nav i {
