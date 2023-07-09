@@ -27,12 +27,12 @@ layout: default
 
 
 <div class="toolkit">
-  {% for item in site.data.navigation.social-links %}  
+  {% for item in site.data.navigation.toolkit %}  
     {% if item.icon.type == 'icon' %}
 
   <div class="item-tile ">
     <i class="{{ item.icon.name }}"></i>
-      {% elseif item.icon.type == 'image' %}
+      {% elsif item.icon.type == 'image' %}
       <img src="{{ item.icon.image_path }}" alt="{{ item.icon.alt }}">
     {% else %}
       {{ item.icon.value }}
