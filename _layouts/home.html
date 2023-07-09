@@ -14,7 +14,7 @@ layout: default
     <div class="intro-social-links"
 <p>Find me on</p>
 
-{% if site.data.navigation.toolkit %}
+{% if site.data.navigation.social-links %}
 <div class="social">
   {% for item in site.data.navigation.social-links %}
     <a href="{{ item.url }}" target="_blank">
@@ -27,9 +27,9 @@ layout: default
 </div>
 
 <div class="toolkit">
-  {% if page.javascript %}
-      {% for script in page.javascript %}
-        {% if page.javascript contains "://" %}
+  {% if site.data.navigation.toolkit %}
+    {% for item in site.data.navigation.social-links %}
+      {% if item.icon.type == 'icon' %}
         <p>HELLO</p>
           {% else %}
         <p>BYE</p>
@@ -37,7 +37,6 @@ layout: default
       {% endfor %}
     {% endif %}
 </div>
-
 
 
 
