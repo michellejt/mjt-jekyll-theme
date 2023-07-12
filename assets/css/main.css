@@ -446,6 +446,7 @@ header {
   min-height: 100vh;
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 .container h1 {
   color: var(--clr-black);
