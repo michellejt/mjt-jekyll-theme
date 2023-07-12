@@ -478,7 +478,7 @@ header {
   background: var(--clr-black);
 }
 footer {
-  padding: 5rem 1rem;
+  padding: 2rem 1rem;
 }
 footer p {
   color: var(--clr-black);
@@ -488,6 +488,16 @@ footer p {
   margin-bottom: 0;
 }
 
+footer .container-fluid {
+  width:100%;
+  display:flex;
+  justify-content: flex-end;
+  padding: 0 75px;
+}
+
+footer .copyright {
+  font-size:0.75rem;
+ }
 .navbar-brand.gradient-text {
   font-weight: 900;
   letter-spacing: 5px;
