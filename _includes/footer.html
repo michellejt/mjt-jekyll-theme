@@ -21,6 +21,25 @@
 
 </p>
 {% endif %}
+
+
+
+
+{% if site.data.navigation.footer %}
+{% for item in site.data.navigation.footer %}
+
+    <p>{{ item.aoc }}</p>
+
+
+  {% endfor %}
+{% endif %}
+
+
+
+
+
+
+
       </div>
     </div>
 
