@@ -6,13 +6,15 @@
     <div class="container mt-5 py-5">
       <div class="row justify-content-center">
 
-        <ul class="links">
-          {% for item in site.data.navigation.social-links %}  
-          <li>
-            <a href="/{{ item.url }}" class="scroll-link">{{ item.title }}</a>
-          </li>
-          {% endfor %}  
-        </ul>
+        {% if site.data.navigation.social-links %}
+        <div class="social">
+          {% for item in site.data.navigation.social-links %}
+            <a href="{{ item.url }}" target="_blank">
+              <i class="{{ item.icon | default: 'fas fa-link' }}" title="{{ item.title }}"></i>
+            </a>
+          {% endfor %}
+        {% endif %}
+        </div>
 
         {% if site.data.navigation.footer.aoc %}
 <p>
