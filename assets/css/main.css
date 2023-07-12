@@ -61,6 +61,8 @@ Variables
   --t-m-bg: #171719;
 }
 
+
+
 /* if dark-mode class is added set this background */
 body.dark-mode {
   background: #353535;
@@ -442,8 +444,7 @@ header {
 }
 .banner {
   min-height: 100vh;
-  display: grid;
-  place-items: center;
+  display: flex;
   text-align: center;
 }
 .container h1 {
