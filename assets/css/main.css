@@ -346,6 +346,8 @@ nav {
   color:#fff!important
 }
 
+
+
 .toolkit img {
   width: 50px;  
   display: unset;
@@ -447,7 +449,10 @@ header {
   display: flex;
   text-align: center;
   justify-content: center;
+  max-width: 1200px;
+  margin:auto;
 }
+
 .container h1 {
   color: var(--clr-black);
   text-transform: uppercase;
