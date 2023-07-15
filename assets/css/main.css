@@ -347,13 +347,6 @@ nav {
 }
 
 
-
-.toolkit img {
-  width: 50px;  
-  display: unset;
-}
-
-
 #nav i {
   color: var(--clr-primary-10);
 }
