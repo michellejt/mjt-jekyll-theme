@@ -3,7 +3,7 @@ layout: default
 ---
 
  <!-- banner -->
- <section class="{{site.baseurl }}">
+ <section class="{{ page.url | split: "/" | last | remove: ".html" }}">
  <div class="banner">
 
 </div>
