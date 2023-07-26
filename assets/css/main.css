@@ -587,3 +587,16 @@ input[type=checkbox]:checked ~ .toggle .toggle__ball {
   cursor: pointer;
   z-index: 1;
 }
+
+/* projects */
+.projects .banner {
+  min-height: 30vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  max-width: unset;
+  margin: auto;
+}
+header.projects {
+  min-height: unset;
+}
