@@ -599,4 +599,5 @@ input[type=checkbox]:checked ~ .toggle .toggle__ball {
 }
 header.projects {
   min-height: unset;
+  width: 100%;
 }
