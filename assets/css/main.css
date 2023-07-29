@@ -82,6 +82,9 @@ body {
   color:  --clr-black;
   font-family: 'Prompt', sans-serif;
 }
+.main {
+  max-width: 80vw;
+}
 
 .intro {
   display: flex;
