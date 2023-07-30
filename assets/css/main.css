@@ -217,8 +217,9 @@ body.dark-mode {
   }
 
   section {
-    min-height: 100vh;
+    padding: 0 0 50px 0!important;
   }
+
 
   .background-block-left {
     height: 100%;
@@ -528,12 +529,6 @@ body.dark-mode {
     width: 50%;
     place-items: flex-start;
     margin-right: 15px !important;
-  }
-
-  section * {
-    text-align: left !important;
-    padding: 0 !important;
-    margin: 0 !important;
   }
 
   .container#skills {
