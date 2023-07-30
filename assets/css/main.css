@@ -515,6 +515,17 @@ body.dark-mode {
     min-width: 60px;
   }
 
+  body.dark-mode .toolkit i,
+  body.dark-mode .is-checked,
+  body.dark-mode .card-links i,
+body.dark-mode .wp-coutb-callout-box *
+  {
+    color:#000!important
+}
+
+
+
+
   .toolkit img {
     max-width: 60px;
     padding: 15px;
