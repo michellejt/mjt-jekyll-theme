@@ -277,6 +277,16 @@ figure img {
     padding-left: 2.25rem;
 }
 
+.three-columns {
+  display:flex;
+}
+
+/* columns */
+.three-columns > * {
+  width:33.3%;
+  padding:1rem;
+}
+
 
 .four-columns {
   display:flex;
@@ -287,6 +297,7 @@ figure img {
   width:25%;
   padding:1rem;
 }
+
 
 
 li {
