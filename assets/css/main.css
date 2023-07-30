@@ -237,6 +237,7 @@ figure {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   background: rgba(85,26,139, 0.2);
   border-radius: 8px;
+  margin-top: 20px;
 }
 
 figure img {
@@ -806,4 +807,5 @@ pre {
   white-space: -pre-wrap;      /* Opera 4-6 */
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  margin-bottom: 20px;
  }
