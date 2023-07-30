@@ -87,6 +87,7 @@ body.dark-mode {
 
     .intro-img-block {
       width: 30%;
+      height: 0;
     }
   }
 
@@ -99,6 +100,7 @@ body.dark-mode {
     .intro-img-block {
       width: 25%;
       margin: auto;
+      height: 0;
     }
 
     #projects {
