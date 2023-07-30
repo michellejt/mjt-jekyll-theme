@@ -189,6 +189,7 @@ pre {
 
 .entry-content p {
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .wp-coutb-callout-box.warning {
@@ -311,7 +312,7 @@ h1 {
 
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 h3 {
