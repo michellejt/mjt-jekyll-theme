@@ -92,6 +92,16 @@ body.dark-mode {
     font-weight:300
 }
 
+.intro-text p:nth-child(6) {
+  margin-bottom:10px;
+  margin-top:10px;
+  font-weight:300;
+}
+.down i {
+  color:#6163be;
+  font-size:2rem;
+}
+
 
   @media all and (min-width: 768px) {
     .intro-text {
@@ -545,7 +555,6 @@ padding:1rem;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-    max-width: 90%;
     margin: auto;
   }
 
