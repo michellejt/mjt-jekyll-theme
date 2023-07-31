@@ -85,20 +85,23 @@ body.dark-mode {
     margin-bottom:0;
     margin-top: -10px;
     font-weight:300;
+    color: #6a23bd;
 }
 
 .intro-text p:nth-child(4)  {
     margin-bottom:0;
-    font-weight:300
+    font-weight:300;
+    color: #6a23bd;
 }
 
 .intro-text p:nth-child(6) {
   margin-bottom:10px;
   margin-top:10px;
   font-weight:300;
+ color: #6a23bd;
 }
 .down i {
-  color:#6163be;
+  color:#6a23bd;
   font-size:2rem;
 }
 
