@@ -96,6 +96,9 @@ body.dark-mode {
 
 
 /* container */
+.two-columns {
+flex-direction: column;
+}
 
 .two-columns > * {
   width:100%!important;
@@ -103,6 +106,9 @@ body.dark-mode {
 }
 
 /* columns */
+.three-columns {
+  flex-direction: column;
+  }
 .three-columns > * {
 width:100%!important;
 padding:1rem;
@@ -110,6 +116,9 @@ padding:1rem;
 
 
 /* columns */
+.four-columns {
+  flex-direction: column;
+  }
 .four-columns > * {
 width:100%!important;
 padding:1rem;
