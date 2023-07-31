@@ -971,6 +971,11 @@ body.dark-mode .wp-coutb-callout-box *
     color: rgba(82, 19, 165, 1);
   }
 
+  .card-links i:hover {
+    color: #068389;
+    border:0;
+}
+
   .card-description p {
     font-size: initial;
     color: rgba(82, 19, 165, 1);
