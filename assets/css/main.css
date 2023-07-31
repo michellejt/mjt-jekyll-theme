@@ -1157,7 +1157,6 @@ figure img {
 /* container */
 .two-columns {
     display:flex;
-    flex-direction: column;
 }
 
 /* columns */
@@ -1185,7 +1184,6 @@ figure img {
 
 .three-columns {
   display:flex;
-  flex-direction: column;
 }
 
 /* columns */
@@ -1197,7 +1195,6 @@ figure img {
 
 .four-columns {
   display:flex;
-  flex-direction: column;
 }
 
 /* columns */
