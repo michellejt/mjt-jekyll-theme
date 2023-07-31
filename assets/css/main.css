@@ -104,14 +104,14 @@ body.dark-mode {
 
 /* columns */
 .three-columns > * {
-width:100!important;
+width:100%!important;
 padding:1rem;
 }
 
 
 /* columns */
 .four-columns > * {
-width:100!important;
+width:100%!important;
 padding:1rem;
 }
 
