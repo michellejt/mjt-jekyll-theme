@@ -73,6 +73,9 @@ body.dark-mode {
   color:#cfd3f5!important
 }
 
+.projects .links {
+  display:none;
+}
 
   /* 	transform: perspective(1000px) rotateY(-25deg);	 */
   :root {
