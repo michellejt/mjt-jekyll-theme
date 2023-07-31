@@ -92,6 +92,33 @@ body.dark-mode {
   }
 
   @media all and (max-width: 768px) {
+
+
+
+/* container */
+
+.two-columns > * {
+  width:100%;
+  padding:1rem;
+}
+
+/* columns */
+.three-columns > * {
+width:100%;
+padding:1rem;
+}
+
+
+/* columns */
+.four-columns > * {
+width:100%;
+padding:1rem;
+}
+
+
+
+
+
     .intro {
       flex-direction: column-reverse;
       margin: 10px 0 15px 0;
