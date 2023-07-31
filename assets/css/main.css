@@ -80,6 +80,19 @@ body.dark-mode {
     --color-2: #e4a6ce;
   }
 
+
+  .intro-text p:nth-child(1) {
+    margin-bottom:0;
+    margin-top: -10px;
+    font-weight:300;
+}
+
+.intro-text p:nth-child(4)  {
+    margin-bottom:0;
+    font-weight:300
+}
+
+
   @media all and (min-width: 768px) {
     .intro-text {
       width: 70%;
@@ -1592,8 +1605,13 @@ header {
 }
 @media screen and (min-width: 768px) {
   .container p {
-    max-width: 40rem;
+    max-width: 50rem;
   }
+  .intro-text p:nth-child(1) {
+    margin-bottom:0;
+    margin-top: -10px;
+  }
+
 }
 /* sections and title */
 .title h2 {
