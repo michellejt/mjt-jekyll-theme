@@ -675,6 +675,7 @@ body.dark-mode .wp-coutb-callout-box *
     padding: 5px 5px !important;
     min-width: 80px;
     text-align: center !important;
+    margin-bottom: 10px!important;
   }
 
   #filters.button-group button:hover {
@@ -1485,6 +1486,8 @@ footer p a{
 	footer{
 		padding: 80px 15px;
 	}
+
+  
 
 }
 
