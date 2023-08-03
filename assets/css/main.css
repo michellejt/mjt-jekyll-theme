@@ -578,8 +578,9 @@ padding:1rem;
   }
 
   .toolkit i {
-    min-width: 60px;
-  }
+    width: 60px;
+    height: 60px;
+}
 
   body.dark-mode .toolkit i,
   body.dark-mode .is-checked,
