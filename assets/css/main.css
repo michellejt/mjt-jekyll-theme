@@ -666,20 +666,6 @@ body.dark-mode .wp-coutb-callout-box *
   }
 
 
-  #filters {
-    z-index: 5;
-    position: relative;
-}
-
-.nav-center {
-    z-index: 10;
-    position: relative;
-}
-
-.toolkit {
-    z-index: 4;
-    position: relative;
-}
 
 
 
