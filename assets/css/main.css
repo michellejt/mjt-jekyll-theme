@@ -670,8 +670,8 @@ body.dark-mode .wp-coutb-callout-box *
   and (device-height: 926px) 
   and (-webkit-device-pixel-ratio: 3) {
 
-.banner, .header {
-min-height: unset;
+.banner, header {
+min-height: unset!important;
   }
 #filters.button-group button {
 margin-bottom: 10px!important
