@@ -664,10 +664,10 @@ body.dark-mode .wp-coutb-callout-box *
   #filters {
     padding: 10px 10px 10px 10px !important;
   }
-
+/* iphone 14 pro max */
   @media only screen 
-  and (device-width: 428px) 
-  and (device-height: 926px) 
+  and (device-width: 430px) 
+  and (device-height: 9932px) 
   and (-webkit-device-pixel-ratio: 3) {
 
 .banner, header {
