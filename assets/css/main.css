@@ -665,9 +665,19 @@ body.dark-mode .wp-coutb-callout-box *
     padding: 10px 10px 10px 10px !important;
   }
 
+  @media only screen 
+  and (device-width: 428px) 
+  and (device-height: 926px) 
+  and (-webkit-device-pixel-ratio: 3) {
 
+.banner, .header {
+min-height: unset;
+  }
+#filters.button-group button {
+margin-bottom: 10px!important
+}
 
-
+}
 
   #filters.button-group button {
     all: unset;
