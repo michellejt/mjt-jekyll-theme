@@ -514,19 +514,29 @@ section {
   transition: width 0.3s ease-in-out;
 }
 
-@media screen and (min-width: 480px) {
+/* Small devices such as large phones (640px and up) */
+@media only screen and (min-width: 40em) {
   .simple-filter .item-tile {
     width: 50%;
   }
 }
 
-@media screen and (min-width: 600px) {
+/* Medium devices such as tablets (768px and up) */
+@media only screen and (min-width: 48em) {
   .simple-filter .item-tile {
-    width: 33%;
+    width: 33.3%;
   }
 }
 
-@media screen and (min-width: 800px) {
+/* Large devices such as laptops (1024px and up) */
+@media only screen and (min-width: 64em) {
+  .simple-filter .item-tile {
+    width: 25%;
+  }
+}
+
+/* Largest devices such as desktops (1280px and up) */
+@media only screen and (min-width: 80em) {
   .simple-filter .item-tile {
     width: 25%;
   }
