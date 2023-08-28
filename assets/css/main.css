@@ -533,6 +533,9 @@ section {
   .simple-filter .item-tile {
     width: 25%;
   }
+  .card-links {
+    top: 60%;
+  }
 }
 
 /* Largest devices such as desktops (1280px and up) */
