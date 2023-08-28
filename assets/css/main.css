@@ -937,29 +937,29 @@ section.ux-design {
 }
 
 .face--back {
-  background: #2c3e50;
   font-size: 1.5rem;
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
   position: absolute;
   margin-left: 10px !important;
-  margin-top: 5px !important;
-  height: 96%;
-  width: 96%;
-  background: rgb(215, 204, 250);
+  margin: 5px 0px 0 10px !important;
+  height: 97%;
+  /* width: 96%; */
+  background: rgba(215, 204, 250, 0.9);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+  cursor: default;
 }
 .card:hover {
   cursor: pointer;
 }
 
-.card:hover .face--front {
+/* .card:hover .face--front {
   transform: rotateY(-180deg);
-}
+} */
 
 .card:hover .face--back {
-  transform: rotateY(0deg);
+  transform: rotateX(0deg);
 }
 
 .card-links {
