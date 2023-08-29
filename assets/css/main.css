@@ -555,7 +555,7 @@ section {
 
 .simple-filter .item-tile.filter-hide {
   width: 0;
-  padding: 20px 0;
+  padding: 20px 0 !important;
 }
 
 .toolkit {
