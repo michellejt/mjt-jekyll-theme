@@ -969,6 +969,9 @@ section.ux-design {
 .card:hover .face--back {
   transform: rotateX(0deg);
 }
+.card:hover .face--front img {
+  opacity: 0.2;
+}
 
 .card-links {
   display: flex;
