@@ -508,7 +508,7 @@ section {
   overflow: hidden;
   float: left;
   /* width: 100%; */
-  /* transition: width 0.3s ease-in-out; */
+  transition: width 0.3s ease-in-out;
   padding: 5px !important;
 }
 
