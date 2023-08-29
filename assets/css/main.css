@@ -518,32 +518,36 @@ section {
   border-radius: 8px;
 }
 
-/* Small devices such as large phones (640px and up) */
-@media only screen and (min-width: 40em) {
+/* For extra small screen devices (595px and below) */
+@media only screen and (max-width: 595px) {
+  .simple-filter .item-tile {
+    width: 100%;
+  }
+}
+
+/* Small screen devices (600px and above) */
+@media only screen and (min-width: 600px) {
   .simple-filter .item-tile {
     width: 50%;
   }
 }
 
-/* Medium devices such as tablets (768px and up) */
-@media only screen and (min-width: 48em) {
+/* Medium screen devices (768px and above) */
+@media only screen and (min-width: 768px) {
   .simple-filter .item-tile {
     width: 33.3%;
   }
 }
 
-/* Large devices such as laptops (1024px and up) */
-@media only screen and (min-width: 64em) {
+/* Big screen devices (889px and above) */
+@media only screen and (min-width: 889px) {
   .simple-filter .item-tile {
-    width: 25%;
-  }
-  .card-links {
-    top: 60% !important;
+    width: 33.3%;
   }
 }
 
-/* Largest devices such as desktops (1280px and up) */
-@media only screen and (min-width: 80em) {
+/* Extra big screen devices (1200px and above) */
+@media only screen and (min-width: 1200px) {
   .simple-filter .item-tile {
     width: 25%;
   }
