@@ -1,11 +1,11 @@
 <header id="home" class="{{ page.collection }}">
   <!-- navbar -->
-  <nav id="nav">
+  <nav id="nav" role="navigation">
     <div class="nav-center">
       <!-- nav header -->
       <div class="nav-header">
         <a class="navbar-brand gradient-text" href= "{{ "/" | relative_url }}" > {{ site.title | escape }} </a>
-        <button class="nav-toggle">
+        <button class="nav-toggle" aria-label="menu toggle">
           <i class="fas fa-bars"></i>
         </button>
       </div>
