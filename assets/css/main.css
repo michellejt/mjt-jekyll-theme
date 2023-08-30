@@ -523,22 +523,16 @@ div#filters {
 }
 
 .button-group button {
-  flex: 1 0 80px !important;
-  margin: 5px !important;
+  flex: 1 0 5% !important;
+  margin: 10px !important;
 }
-
-#filters {
-  display: flex !important;
-  flex-wrap: wrap !important;
-}
-
 /* For extra small screen devices (595px and below) */
 @media only screen and (max-width: 595px) {
   .simple-filter .item-tile {
     width: 100%;
   }
   #filters button:nth-child(1) {
-    width: 100% !important;
+    width: 95% !important;
     flex: none !important;
   }
 
