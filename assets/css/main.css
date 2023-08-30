@@ -518,10 +518,46 @@ section {
   border-radius: 8px;
 }
 
+div#filters {
+  display: inline;
+}
+
+#filters {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.button-group button {
+  flex: 1 0 80px !important;
+  margin: 5px !important;
+}
+
+#filters {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.button-group button {
+  flex: 1 0 80px !important;
+  margin: 5px !important;
+}
+
 /* For extra small screen devices (595px and below) */
 @media only screen and (max-width: 595px) {
   .simple-filter .item-tile {
     width: 100%;
+  }
+
+  #filters.button-group button:not(.is-checked) {
+    display: none !important;
+  }
+  #filters.button-group button[data-filter="show-all"] {
+    display: initial !important;
+  }
+
+  #filters.button-group button[data-filter="show-all"].is-checked ~ button {
+    background: green !important;
+    display: initial !important;
   }
 }
 
