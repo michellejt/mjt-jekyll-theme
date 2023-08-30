@@ -566,6 +566,11 @@ div#filters {
   .simple-filter .item-tile {
     width: 50%;
   }
+
+  #filters button:nth-child(1) {
+    width: 100%;
+    flex: none !important;
+  }
 }
 
 /* Medium screen devices (768px and above) */
