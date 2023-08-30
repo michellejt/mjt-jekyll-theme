@@ -524,7 +524,7 @@ div#filters {
 
 .button-group button {
   flex: 1 0 80px !important;
-  margin: 5px !important;
+  /* margin: 5px !important; */
 }
 
 #filters {
@@ -573,7 +573,7 @@ div#filters {
 
 @media only screen and (max-width: 1160px) {
   #filters button:nth-child(1) {
-    width: 95% !important;
+    width: 100% !important;
     flex: none !important;
   }
 }
@@ -712,7 +712,7 @@ section.ux-design {
 #filters.button-group button {
   border: solid 2px #78dee4;
   border-radius: 8px;
-  padding: 5px 5px !important;
+  padding: 5px 0px !important;
   min-width: 80px;
   text-align: center !important;
   margin-bottom: 10px !important;
