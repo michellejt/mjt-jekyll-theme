@@ -537,10 +537,6 @@ div#filters {
   .simple-filter .item-tile {
     width: 100%;
   }
-  #filters button:nth-child(1) {
-    width: 95% !important;
-    flex: none !important;
-  }
 
   #filters.button-group button:not(.is-checked) {
     display: none !important;
@@ -572,6 +568,13 @@ div#filters {
 @media only screen and (min-width: 889px) {
   .simple-filter .item-tile {
     width: 33.3%;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  #filters button:nth-child(1) {
+    width: 95% !important;
+    flex: none !important;
   }
 }
 
