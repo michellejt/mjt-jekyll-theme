@@ -522,11 +522,6 @@ div#filters {
   display: inline;
 }
 
-#filters {
-  display: flex !important;
-  flex-wrap: wrap !important;
-}
-
 .button-group button {
   flex: 1 0 80px !important;
   margin: 5px !important;
@@ -535,11 +530,6 @@ div#filters {
 #filters {
   display: flex !important;
   flex-wrap: wrap !important;
-}
-
-.button-group button {
-  flex: 1 0 80px !important;
-  margin: 5px !important;
 }
 
 /* For extra small screen devices (595px and below) */
@@ -560,7 +550,6 @@ div#filters {
   }
 
   #filters.button-group button[data-filter="show-all"].is-checked ~ button {
-    background: green !important;
     display: initial !important;
   }
 }
