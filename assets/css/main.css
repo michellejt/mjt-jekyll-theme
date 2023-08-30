@@ -547,6 +547,10 @@ div#filters {
   .simple-filter .item-tile {
     width: 100%;
   }
+  #filters button:nth-child(1) {
+    width: 100% !important;
+    flex: none !important;
+  }
 
   #filters.button-group button:not(.is-checked) {
     display: none !important;
