@@ -535,7 +535,7 @@ div#filters {
 /* For extra small screen devices (595px and below) */
 @media only screen and (max-width: 595px) {
   .simple-filter .item-tile {
-    width: 100%;
+    width: 95%;
   }
   #filters button:nth-child(1) {
     width: 100% !important;
