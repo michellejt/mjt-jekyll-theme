@@ -691,9 +691,6 @@ section.ux-design {
   aspect-ratio: 1/1;
 }
 
-#filters {
-  padding: 10px 10px 10px 10px !important;
-}
 /* iphone 14 pro max */
 @media only screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) {
   .banner,
@@ -720,10 +717,6 @@ section.ux-design {
 
 #filters.button-group button:hover {
   cursor: pointer;
-}
-
-#filters.button-group {
-  padding-left: 10px !important;
 }
 
 #filters button.is-checked,
