@@ -577,7 +577,7 @@ div#filters {
     flex: none !important;
   }
   #filters.button-group button {
-    min-width: 20%;
+    min-width: 20% !important;
   }
 }
 
